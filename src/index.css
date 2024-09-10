@@ -1,0 +1,219 @@
+*{
+  font-family: "Poppins", sans-serif;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  border-bottom: 1px solid black;
+
+
+}
+.title{
+  padding: 10px;
+  color: violet;
+  font-size: 30px;
+  text-transform: uppercase;
+
+}
+.searchbox{
+  width: 1050px;
+  border-radius: 40px;
+  border: 2px solid black;
+  display: flex;
+  gap: 5px;
+
+}
+input:hover{
+  border: none;
+  background-color: black;
+}
+.searchbox input{
+  width: 70%;
+  border: none;
+  font-style:normal;
+  color: sienna;
+  
+
+  
+}
+.searchbox i{
+  padding: 5px;
+}
+
+.icons{
+  display: flex;
+  padding-right: 60px;
+  gap: 15px;
+  padding: 10px;
+}
+.design{
+  color: rgb(0, 0, 0);
+}
+.design:hover{
+  color: mediumvioletred;
+}
+i{
+  padding: 4px;
+}
+.categories{
+  display: flex;
+  justify-content: space-evenly;
+  text-transform: uppercase;
+  border-bottom: 1px solid black;
+}
+.info{
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  background-color: blueviolet;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  
+}
+.info:hover{
+  background-color: white;
+}
+.card{
+  width: 100%;
+}
+.slide{
+  display: flex;
+  margin: 10px;
+  text-transform: uppercase;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+
+.slides{
+  width: 240px;
+  height: 130px;
+}
+.slides h3,h4,p{
+  align-items: center;
+  
+}
+.slides img{
+  width: 100%;
+  height: 120px;
+}
+.titles{
+  width: 60px;
+}
+h2{
+  text-transform: uppercase;
+  color:black         ;
+}
+h4{
+  text-transform: uppercase;
+  color: navy;
+}
+.topicsre{
+  margin-top: 190px;
+}
+.recommended{
+display: flex;
+gap: 10%;
+text-transform: uppercase;
+flex-wrap: wrap;
+margin: 5px;
+
+
+}
+.recommended p{
+flex-grow:1 ;
+border: 2px solid black;
+padding: 10px;
+flex-basis: 20%;
+justify-content: center;
+display: flex;
+background-color: indigo;
+color: white;
+
+}
+.recommended p:hover{
+background-color: black;
+
+}
+.photos{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+}
+.cardphotos{
+  width: 180px;
+  flex-basis: 17%;
+  height: 200px;
+  
+}
+.cardphotos img{
+  width: 100%;
+  height: 80%;
+}
+.addphotos{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+  flex-wrap: wrap;
+}
+.cardphotos p{
+  justify-content: center;
+  display: flex;
+  text-transform: uppercase;
+  color: indigo;
+
+}
+.cardphotos h3{
+  color: black;
+  justify-content: center;
+  display: flex;
+  text-transform: uppercase;
+}
+.cardphotos del{
+  padding: 10px;
+}
+.footer{
+  
+  margin-top: 10%;
+  border: 2px solid black;
+  background-color: black;
+  
+  
+}
+.footers{
+  display: flex;
+  gap: 20px;
+  margin-left: 60px;
+
+}
+.end{
+  display: flex;
+  justify-content: space-between;
+  color: aliceblue;
+}
+.end h2{
+  color: aliceblue;
+  padding-left: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
